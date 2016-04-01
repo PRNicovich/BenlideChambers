@@ -1,0 +1,50 @@
+Chamlide Chamber Design
+Benjamin Goodnow, February 2016
+
+Enclosed:
+Full report on the Custom Chamlide project (includes specific sources for materials)
+
+Solidworks and STL CAD Files for 3D printing
+	-18mm:Square, Circular, Multi. 22mm square. 1st prototype
+
+Dxf files for Lasing Cutting silicone rubber gaskets
+	-18mm Square, Circular, Multi, 22mm square
+
+CAD Files for Other Projects (I.e. 3rd Arm and Laser Trigger Enclosure)
+
+PRINTING
+1.Using UP Plus 2 and UP Mini Printers. Heated platform+raft or enclosure support crucial in minimising warping. Use 1.75mm UP Premium ABS filament 
+2.0.15mm layer height recommended for base, 0.2mm for main/top. 0.25-0.3mm should work
+3.Up Software settings: "Fine" (slow-medium) speed for main body, "fast" (20mm^3/s+) for bottom
+4.Print base with no support (so facing upwards), print main with support, top downwards, as a cut was made intended for a glass cover
+5. Allow some time to coolbefore removing from platform (minimise warp)
+6. Remove supports and sand/file any noticeable faults/imperfections
+Complete
+*Note to be careful priting multiple parts at once on the same printer. This effectivley halves your print speed, and so increases chances of warping. 
+*Conversley this can be used to increases the "Fineness" of the print if required
+
+CUTTING
+1. Simply upload dxf file to laser cut program, align in cornerand set settings to 1mm thick rubber
+2. Place silicone sheet in cutter. Make sure to align well and check focus
+3. Run cut
+4. Remove ash and surrounding silicone
+Complete
+
+ASSEMBLY
+1. Need 8 disk 3x1mm rare earth magnets, 4 each half
+2. First add small amount (very little needed) superglue to each magnet hole, then carefully place each magnet into each hole
+***BE CAREFUL TO ENSURE POLARITY IS CORRECT***
+3. Do so for both halves, making sure magnets are attracted to eachother
+4. Allow glue to dry before connecting two halves
+5. Sand any excess glue that has hardened over the tops of magnets
+6. Place coverslip in baseplate with forceps
+7. Place gasket in main/top half, stretching at corners (if needed) to fit tightly in extruded ring
+8. Lower main onto Base, magnets will attract. Push together with fingers after to ensure attraction and gasket compression  
+9. Add observation medium
+Complete
+
+
+CREATING VARIATION DESIGNS (I.E for 25mm coverslips)
+-Simply edit Solidworks files as required, either by using the scale tool or by adjusting individual dimensions (Edit Sketch). 
+-Gasket widths made need to be larger if outer radius increased, as will the very thin support for coverslip in base plate. 
+-Body outer radius will have to be increased if through hole becomes too close to magnets 

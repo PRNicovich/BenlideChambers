@@ -11,3 +11,5 @@ Assembly instructions included in AssemblyNotes.txt.  For a single chamber, prin
 Solidworks files available upon request (p.nicovich@unsw.edu.au).
 
 End result - an imaging chamber that performs at least as well as a commercial one for standard-resolution microscopy for 1/50th the cost. 
+
+![alt tag](https://github.com/PRNicovich/BenlideChambers/blob/master/ChambersPic.png)

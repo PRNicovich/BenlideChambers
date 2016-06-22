@@ -1,0 +1,11 @@
+STL files are for two parts of chamber for 25 mm round coverslips. 
+
+DXF file is for gasket for 25 mm round coverslips. 
+
+Chamber parts require addition of 3 mm x 1 mm round Nd magnets.  These were sourced from similar vendors as given in master project instructions.  16 x N35 magnets required for each chamber.  Magnets are held in place with two-part epoxy.  Ensure that all magnets have the same North-South orientation so top and bottom rotational orientation is unimportant.  Check that any stray filament is removed from magnet recesses in print so that magnets can sit flush or just below the printed surface of the part.
+
+Gasket is laser-cut from 1.25 mm thick silicone rubber sheet.  Material sourced from same vendor as given in master project instructions.
+
+Care and some testing must be taken to ensure tolerances are met for a good seal with coverslip without excessive force and cracking.  Most critical dimension is the height of the recess in which the gasket rests on the chamber top.  If this is too tall there will not be a good seal; too short and there may be excessive force on the coverslip or poor binding between the top and bottom.  Also, top and bottom should have a good slip fit on their own.  This may require some adjustment of the diameter of the mating parts depending on the nozzle diameter and printer kerf if a different printer is used.
+
+Printed on Zortrax M200 w/ Z-UltraT filament, 0.09 mm layer height, and medium infill.  As mentioned, some dimensions of the parts may need to be adjusted for different printers.  Each part is oriented on the print bed so that the magnet side is upright.  This prints the parts with no support material.  With a heated bed multiple parts can be printed at one time, otherwise single-part runs is recommended to avoid warping. 

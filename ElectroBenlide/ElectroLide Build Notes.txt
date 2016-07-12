@@ -1,0 +1,33 @@
+Build notes for ElectroLide chamber for electrochem + imaging
+
+-------------------------------------------------------------
+
+Materials:
+
+Make:
+1 x ElectroLideBottom.stl
+1 x ElectroLideTop.stl
+1 x ElectroLideCap.stl
+1 x ElectroLideGasket.DXF
+
+Buy:
+16 x 3x1  mm Nd disk magnets
+1 x Mill-max 0854 spring-loaded pin ($2.27 AUD on Aussie element14, pt no 2065655)
+4 x Harwin H3169-05 PCB socket ($1.27 AUD, element14 pt no 1617250)
+5 minute epoxy or other appropriate adhesive 
+
+The ElectroLide chamber is designed to allow for simultaneous imaging and electrochemical measurements through a 22 mm square ITO-coated coverslip.  A vertical pogo pin provides a spring-loaded contact to the top surface of the coverslip for an electrical connection that is convenient to access.  Two more pass-through contacts allow junctions between additional electrodes or connections to the buffer solution.  
+
+Printing was done on a Zortrax M200 with a 0.09 mm layer height and medium infill in Z-UltraT.  Orientation is important, with the top and bottom pieces printed magnet side up and the cap flat side down.  
+
+Gasket is laser cut from 1.25 mm silicone rubber sheet.  The rubber burns in a sooty flame, so there's some clean-up to do.  A sonication in ethanol does a good job removing the residual soot.
+
+The tolerances for these fits are a bit tighter than the other chambers to have a good seal with the gasket.  It's a good idea to start with a printer that has a high amount of precision in the z axis (90 um layer height used here).  Still, there is some clean-up that's needed after printing.  A sharp razor blade is the best tool for this. The area to focus on is the gasket seat locations on the chamber top.  After a go on my printer, these needed to be trimmed down to fit easily within the bottom and to allow the gasket to seat effectively.  
+
+The pogo pin sits with the pin point just proud of the gasket.  Too tall and it encourages leaking.  You may need to test fit the pin in place before gluing to double-check that this z position is correct.  Fit in the raw print is tight, but the pin itself can be used as a reamer to open the hole to final size.
+
+The pass-through pins are a pair of PCB sockets soldered together butt-to-butt.  Putting them on a stringer (I used a ~1 mm hex key) works well to hold them in place for this operation (see pic in repo).  It's actually easier with *two* stringers, as you can really only thread a socket on in one direction.  But if you have a socket on a stringer, you can pass it to the other in the "wrong" direction by butting the stringers together and sliding the socket over to the other one. A bit of spatial reasoning will get you the two sockets on the same stringer with the correct orientation and a small bit of solder holds them together. These accept 1 mm thick wire (18 AWG) when picking out electrode connections.
+
+Assembly involves gluing in the magnets (make sure they all point the same way!), the pogo pin, the butted-together socket pairs, and then the cap piece on top.  I held it all together with 5 minute epoxy which works well. 
+
+Assembled chambers should be tested for leaks and electrical contact before you commit to an experiment.  
